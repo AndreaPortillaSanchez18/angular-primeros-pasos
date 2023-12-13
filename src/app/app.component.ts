@@ -4,11 +4,12 @@ import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  standalone: false,
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Hola Mundo';
+
+
+
 }
